@@ -19,8 +19,8 @@
         android:id="@+id/etTodo"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:paddingRight="20dp"
         android:hint="New ToDo"
+        android:paddingEnd="20dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toStartOf="@+id/btnAddToDo"
         app:layout_constraintStart_toStartOf="parent" />
